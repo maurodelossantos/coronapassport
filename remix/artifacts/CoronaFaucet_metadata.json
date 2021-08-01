@@ -1,0 +1,176 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "patientAddress",
+						"type": "address"
+					}
+				],
+				"name": "etherGiven",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "etherRemaining",
+						"type": "uint256"
+					}
+				],
+				"name": "etherMininum",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "etherRemaining",
+						"type": "uint256"
+					}
+				],
+				"name": "etherOutOfStock",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "etherReceived",
+				"type": "event"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "giveMeEther",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "giveMeEtherSimple",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"CoronaFaucet.sol": "CoronaFaucet"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"BasicToken.sol": {
+			"keccak256": "0xa2a63f3d2180a9811247f14f8ad2a882819c4d6a878b034019116738a3c79438",
+			"urls": [
+				"bzz-raw://98445fcf44157afeafe1e217b0a7a824f6a2c8ff35ee8ceb94a30690ced13af9",
+				"dweb:/ipfs/QmQxg8ssKnSF8Z6aHfWeVz9nxn4KnbuMiedYBTUv7kXsVA"
+			]
+		},
+		"CoronaFaucet.sol": {
+			"keccak256": "0x083257a58a6ba906190805a20e1ba911c899e358b620f9b811c108fee32786ec",
+			"urls": [
+				"bzz-raw://0a6da424a07b4df2977c9af4f28f902d6aabb78c2da486d839130b8d09b828cf",
+				"dweb:/ipfs/QmXxxZbKY9v5Lz2R4Ff1D8qcUZ1SSyNFP1HozWKvBo4Pkf"
+			]
+		},
+		"Coronacoin.sol": {
+			"keccak256": "0x5e86b7068822ad6fc755db32efaa08d8f37b76d75ab18fa0a47b2491c058f3fc",
+			"urls": [
+				"bzz-raw://85f799b0ffcaeac09a79eac15b00b8b07afba62c111ef5cbcf4b96fe90665f14",
+				"dweb:/ipfs/QmQNoLPurj3M5sUGENxUNgq61agDN1pVcQ2yin89jpubis"
+			]
+		},
+		"ERC20.sol": {
+			"keccak256": "0xc9702a1824e7be7a8a79859b668fb7f0e7f00b4e4a78c816358a37dab6100375",
+			"urls": [
+				"bzz-raw://cb3127f33b60279ac6bfae0d95fd59c26b8418cef8f707f8e9232349b6df53ac",
+				"dweb:/ipfs/QmVSLyMWM6BFcjynqxTAvMqriu6G3s8o4dW6Whz4kfTbQn"
+			]
+		},
+		"ERC20Basic.sol": {
+			"keccak256": "0x0782c1c0110127bc5d67d27effa6005f3d41cd4ac76f5dcc79306e8beeb9350a",
+			"urls": [
+				"bzz-raw://86fb7ef14b6bfbde0148c7226a0fdab00e38b3be4decccf8a9a1737ac66e9d1d",
+				"dweb:/ipfs/QmXXL89CzNaC8omQm5HGPDL1UDZKMfy4U2tFKqYbsV9zrj"
+			]
+		},
+		"MedicalRecord.sol": {
+			"keccak256": "0xfe1e5dff4412f09a30d31590205d3462f73477ff6033f78c9dbaec9f4cc0e7cc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://897a28bc92e59e231260a12c2a9f38e781c006f47f3df136ff1a0d9d48ba3fdc",
+				"dweb:/ipfs/QmQPLWofPxgHaT3ncXsMDsNUsDgZm46Myy9hMdWgiVeZ1w"
+			]
+		},
+		"Ownable.sol": {
+			"keccak256": "0xb329b27651b60414664b48b747173a376797f5c93c810db988a6a0b5c422c5af",
+			"urls": [
+				"bzz-raw://963ae1a30bc4975c895dea0694e77263c441fd69053a77e86ced0832c6101b0c",
+				"dweb:/ipfs/Qmagb3ZWVyzSGEJ3XywatSZiLzyFzHYvCDRDVPgthn6vEj"
+			]
+		},
+		"SafeMath.sol": {
+			"keccak256": "0x6a10cdbe4b86a78925f67826428b275b0d3666cc69941e74bfefcb98c3d4071c",
+			"urls": [
+				"bzz-raw://f108ab103f8b1e366df068212ceffb0a0c5547154849cf14a6848f8a15763e99",
+				"dweb:/ipfs/QmdBaSFHb1DrCHATbu9VoqXYBb1KyLtuQWKNSsehxrhPZV"
+			]
+		},
+		"StandardToken.sol": {
+			"keccak256": "0x2cc1a5607c29bf814c5ff39a85ac13478b61b7ad222e4cf232045399b24c50ae",
+			"urls": [
+				"bzz-raw://6b1d9ca8430cc04e651c0dc0db6f0cf4ad4612d6b4451275cc10553f51fff71d",
+				"dweb:/ipfs/QmaSc5qTQAXQCq6ZSWTCDoBPBDjxHiLwvoLjnq2QHDPZwM"
+			]
+		}
+	},
+	"version": 1
+}

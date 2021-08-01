@@ -1,0 +1,1175 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "cdcAddress",
+						"type": "address"
+					}
+				],
+				"name": "CdcAdded",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "recordID",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "patientAddress",
+						"type": "address"
+					},
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "nLote",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "proveedor",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "lugar",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "timestamp",
+								"type": "string"
+							},
+							{
+								"internalType": "address",
+								"name": "cdc",
+								"type": "address"
+							}
+						],
+						"indexed": false,
+						"internalType": "struct MedicalRecord.Dosis",
+						"name": "newDose",
+						"type": "tuple"
+					}
+				],
+				"name": "DoseAdded",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "previousOwner",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "newOwner",
+						"type": "address"
+					}
+				],
+				"name": "OwnershipTransferred",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint32",
+						"name": "_idNacional",
+						"type": "uint32"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint32",
+						"name": "_idMedico",
+						"type": "uint32"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "_nombre",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "_apellido1",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "_apellido2",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "_fechaNacimiento",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "_genero",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "_pais",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "_contacto",
+						"type": "string"
+					},
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "nLote",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "proveedor",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "lugar",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "timestamp",
+								"type": "string"
+							},
+							{
+								"internalType": "address",
+								"name": "cdc",
+								"type": "address"
+							}
+						],
+						"indexed": false,
+						"internalType": "struct MedicalRecord.Dosis[]",
+						"name": "_dosisRecibidas",
+						"type": "tuple[]"
+					},
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "idPrueba",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "tipo",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "resultado",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "timestamp",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "lugar",
+								"type": "string"
+							},
+							{
+								"internalType": "address",
+								"name": "cdc",
+								"type": "address"
+							}
+						],
+						"indexed": false,
+						"internalType": "struct MedicalRecord.Prueba[]",
+						"name": "_pruebasRealizadas",
+						"type": "tuple[]"
+					},
+					{
+						"indexed": false,
+						"internalType": "string[]",
+						"name": "_reaccionesAdversas",
+						"type": "string[]"
+					}
+				],
+				"name": "PatientRecordAccesed",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "recordID",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "patientAddress",
+						"type": "address"
+					}
+				],
+				"name": "PatientRecordAdded",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "recordID",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "patientAddress",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "reaccion",
+						"type": "string"
+					}
+				],
+				"name": "ReactionAdded",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "patientAddress",
+						"type": "address"
+					}
+				],
+				"name": "RewardPaid",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "recordID",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "patientAddress",
+						"type": "address"
+					},
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "idPrueba",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "tipo",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "resultado",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "timestamp",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "lugar",
+								"type": "string"
+							},
+							{
+								"internalType": "address",
+								"name": "cdc",
+								"type": "address"
+							}
+						],
+						"indexed": false,
+						"internalType": "struct MedicalRecord.Prueba",
+						"name": "newTest",
+						"type": "tuple"
+					}
+				],
+				"name": "TestAdded",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "_tokenRewardSmall",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "_tokenRewardMedium",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "_tokenRewardBig",
+						"type": "uint256"
+					}
+				],
+				"name": "TokenRewardSet",
+				"type": "event"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_direccionCdc",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_nombre",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_direccionPostal",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_contacto",
+						"type": "string"
+					}
+				],
+				"name": "addCdc",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_direccionPaciente",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_nLote",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_proveedor",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_lugar",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_timestamp",
+						"type": "string"
+					}
+				],
+				"name": "addDosis",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_direccionPaciente",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_reaccion",
+						"type": "string"
+					}
+				],
+				"name": "addReaccion",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint32",
+						"name": "_idNacional",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint32",
+						"name": "_idMedico",
+						"type": "uint32"
+					},
+					{
+						"internalType": "address",
+						"name": "_direccionPaciente",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_nombre",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_apellido1",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_apellido2",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_fechaNacimiento",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_genero",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_pais",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_contacto",
+						"type": "string"
+					}
+				],
+				"name": "addRecord",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_direccionPaciente",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_idPrueba",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_tipo",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_lugar",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_timestamp",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_resultado",
+						"type": "string"
+					}
+				],
+				"name": "addTest",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_patientAddress",
+						"type": "address"
+					}
+				],
+				"name": "balaceOfCoronacoins",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "cdcCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "coronacoin",
+				"outputs": [
+					{
+						"internalType": "contract Coronacoin",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_direccionCdc",
+						"type": "address"
+					}
+				],
+				"name": "getCdcInfo",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "_nombre",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_direccionPostal",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_contacto",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_direccionPaciente",
+						"type": "address"
+					}
+				],
+				"name": "getFreeRecord",
+				"outputs": [
+					{
+						"internalType": "uint32",
+						"name": "_idNacional",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint32",
+						"name": "_idMedico",
+						"type": "uint32"
+					},
+					{
+						"internalType": "string",
+						"name": "_nombre",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_apellido1",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_apellido2",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_fechaNacimiento",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_genero",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_pais",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_contacto",
+						"type": "string"
+					},
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "nLote",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "proveedor",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "lugar",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "timestamp",
+								"type": "string"
+							},
+							{
+								"internalType": "address",
+								"name": "cdc",
+								"type": "address"
+							}
+						],
+						"internalType": "struct MedicalRecord.Dosis[]",
+						"name": "_dosisRecibidas",
+						"type": "tuple[]"
+					},
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "idPrueba",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "tipo",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "resultado",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "timestamp",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "lugar",
+								"type": "string"
+							},
+							{
+								"internalType": "address",
+								"name": "cdc",
+								"type": "address"
+							}
+						],
+						"internalType": "struct MedicalRecord.Prueba[]",
+						"name": "_pruebasRealizadas",
+						"type": "tuple[]"
+					},
+					{
+						"internalType": "string[]",
+						"name": "_reaccionesAdversas",
+						"type": "string[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_direccionPaciente",
+						"type": "address"
+					}
+				],
+				"name": "getRecord",
+				"outputs": [
+					{
+						"internalType": "uint32",
+						"name": "_idNacional",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint32",
+						"name": "_idMedico",
+						"type": "uint32"
+					},
+					{
+						"internalType": "string",
+						"name": "_nombre",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_apellido1",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_apellido2",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_fechaNacimiento",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_genero",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_pais",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_contacto",
+						"type": "string"
+					},
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "nLote",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "proveedor",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "lugar",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "timestamp",
+								"type": "string"
+							},
+							{
+								"internalType": "address",
+								"name": "cdc",
+								"type": "address"
+							}
+						],
+						"internalType": "struct MedicalRecord.Dosis[]",
+						"name": "_dosisRecibidas",
+						"type": "tuple[]"
+					},
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "idPrueba",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "tipo",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "resultado",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "timestamp",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "lugar",
+								"type": "string"
+							},
+							{
+								"internalType": "address",
+								"name": "cdc",
+								"type": "address"
+							}
+						],
+						"internalType": "struct MedicalRecord.Prueba[]",
+						"name": "_pruebasRealizadas",
+						"type": "tuple[]"
+					},
+					{
+						"internalType": "string[]",
+						"name": "_reaccionesAdversas",
+						"type": "string[]"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "isCdc",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "isPatient",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_direccionPaciente",
+						"type": "address"
+					}
+				],
+				"name": "knownPatient",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "patient",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "patientCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "recordCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_tokenRewardSmall",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_tokenRewardMedium",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_tokenRewardBig",
+						"type": "uint256"
+					}
+				],
+				"name": "setCoronacoinRewards",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "tokenAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "tokenRewardBigAmount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "tokenRewardMediumAmount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "tokenRewardSmallAmount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "newOwner",
+						"type": "address"
+					}
+				],
+				"name": "transferOwnership",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"transferOwnership(address)": {
+					"details": "Allows the current owner to transfer control of the contract to a newOwner.",
+					"params": {
+						"newOwner": "The address to transfer ownership to."
+					}
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"MedicalRecord.sol": "MedicalRecord"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"BasicToken.sol": {
+			"keccak256": "0xa2a63f3d2180a9811247f14f8ad2a882819c4d6a878b034019116738a3c79438",
+			"urls": [
+				"bzz-raw://98445fcf44157afeafe1e217b0a7a824f6a2c8ff35ee8ceb94a30690ced13af9",
+				"dweb:/ipfs/QmQxg8ssKnSF8Z6aHfWeVz9nxn4KnbuMiedYBTUv7kXsVA"
+			]
+		},
+		"Coronacoin.sol": {
+			"keccak256": "0x5e86b7068822ad6fc755db32efaa08d8f37b76d75ab18fa0a47b2491c058f3fc",
+			"urls": [
+				"bzz-raw://85f799b0ffcaeac09a79eac15b00b8b07afba62c111ef5cbcf4b96fe90665f14",
+				"dweb:/ipfs/QmQNoLPurj3M5sUGENxUNgq61agDN1pVcQ2yin89jpubis"
+			]
+		},
+		"ERC20.sol": {
+			"keccak256": "0xc9702a1824e7be7a8a79859b668fb7f0e7f00b4e4a78c816358a37dab6100375",
+			"urls": [
+				"bzz-raw://cb3127f33b60279ac6bfae0d95fd59c26b8418cef8f707f8e9232349b6df53ac",
+				"dweb:/ipfs/QmVSLyMWM6BFcjynqxTAvMqriu6G3s8o4dW6Whz4kfTbQn"
+			]
+		},
+		"ERC20Basic.sol": {
+			"keccak256": "0x0782c1c0110127bc5d67d27effa6005f3d41cd4ac76f5dcc79306e8beeb9350a",
+			"urls": [
+				"bzz-raw://86fb7ef14b6bfbde0148c7226a0fdab00e38b3be4decccf8a9a1737ac66e9d1d",
+				"dweb:/ipfs/QmXXL89CzNaC8omQm5HGPDL1UDZKMfy4U2tFKqYbsV9zrj"
+			]
+		},
+		"MedicalRecord.sol": {
+			"keccak256": "0xfe1e5dff4412f09a30d31590205d3462f73477ff6033f78c9dbaec9f4cc0e7cc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://897a28bc92e59e231260a12c2a9f38e781c006f47f3df136ff1a0d9d48ba3fdc",
+				"dweb:/ipfs/QmQPLWofPxgHaT3ncXsMDsNUsDgZm46Myy9hMdWgiVeZ1w"
+			]
+		},
+		"Ownable.sol": {
+			"keccak256": "0xb329b27651b60414664b48b747173a376797f5c93c810db988a6a0b5c422c5af",
+			"urls": [
+				"bzz-raw://963ae1a30bc4975c895dea0694e77263c441fd69053a77e86ced0832c6101b0c",
+				"dweb:/ipfs/Qmagb3ZWVyzSGEJ3XywatSZiLzyFzHYvCDRDVPgthn6vEj"
+			]
+		},
+		"SafeMath.sol": {
+			"keccak256": "0x6a10cdbe4b86a78925f67826428b275b0d3666cc69941e74bfefcb98c3d4071c",
+			"urls": [
+				"bzz-raw://f108ab103f8b1e366df068212ceffb0a0c5547154849cf14a6848f8a15763e99",
+				"dweb:/ipfs/QmdBaSFHb1DrCHATbu9VoqXYBb1KyLtuQWKNSsehxrhPZV"
+			]
+		},
+		"StandardToken.sol": {
+			"keccak256": "0x2cc1a5607c29bf814c5ff39a85ac13478b61b7ad222e4cf232045399b24c50ae",
+			"urls": [
+				"bzz-raw://6b1d9ca8430cc04e651c0dc0db6f0cf4ad4612d6b4451275cc10553f51fff71d",
+				"dweb:/ipfs/QmaSc5qTQAXQCq6ZSWTCDoBPBDjxHiLwvoLjnq2QHDPZwM"
+			]
+		}
+	},
+	"version": 1
+}
