@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="shared-jvm-1.0-SNAPSHOT">
+    <output-path>C:\Users\Usuario\Desktop\TFG\coronaPass\shared\build\libs</output-path>
+    <root id="archive" name="shared-jvm-1.0-SNAPSHOT.jar">
+      <element id="module-output" name="coronaPass.shared.jvmMain" />
+    </root>
+  </artifact>
+</component>

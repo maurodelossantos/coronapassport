@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="?attr/actionBarSize">
+
+
+    <EditText
+        android:id="@+id/et_accountGetCdc"
+        android:layout_width="366dp"
+        android:layout_height="52dp"
+
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bt_otherCdcInfo"
+        app:layout_constraintVertical_bias="0.575"></EditText>
+
+    <Button
+        android:id="@+id/bt_scanCDC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ESCANEAR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/bt_profileCdc"
+        app:layout_constraintHorizontal_bias="0.574"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.89" />
+
+    <TextView
+        android:id="@+id/tv_resultScanned"
+        android:layout_width="271dp"
+        android:layout_height="93dp"
+        android:gravity="center"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#4CAF50"
+        app:layout_constraintBottom_toTopOf="@+id/bt_scanCDC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.93" />
+
+    <Button
+        android:id="@+id/bt_profileCdc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PERFIL"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.773"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.89" />
+
+    <Button
+        android:id="@+id/bt_otherCdcInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CDC INFO"
+        app:layout_constraintBottom_toTopOf="@+id/tv_resultScanned"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.136" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="171dp"
+        android:layout_height="165dp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_resultScanned"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_otherCdcInfo"
+        app:layout_constraintVertical_bias="0.231"
+        app:srcCompat="@drawable/mask" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="272dp"
+        android:layout_height="78dp"
+        android:text="Escanee un pasaporte al que añadir nueva información médica."
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/tv_resultScanned"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.305" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

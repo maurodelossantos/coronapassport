@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_infoPasaporte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Info del pasaporte"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.102" />
+
+    <TextView
+        android:id="@+id/tv_Nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="@+id/bt_nombre"
+        app:layout_constraintEnd_toStartOf="@+id/bt_ap1"
+        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintStart_toEndOf="@+id/bt_nombre"
+        app:layout_constraintTop_toTopOf="@+id/bt_nombre"
+        app:layout_constraintVertical_bias="0.551" />
+
+    <TextView
+        android:id="@+id/tv_idAp1"
+        android:layout_width="91dp"
+        android:layout_height="66dp"
+        android:gravity="center"
+        android:text="AAAAAAAAA"
+        app:layout_constraintBottom_toBottomOf="@+id/bt_ap1"
+        app:layout_constraintEnd_toEndOf="@+id/tv_idNac"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/bt_ap1"
+        app:layout_constraintTop_toTopOf="@+id/bt_ap1" />
+
+    <TextView
+        android:id="@+id/tv_idContacto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="@+id/bt_contacto"
+        app:layout_constraintEnd_toEndOf="@+id/tv_idNac"
+        app:layout_constraintHorizontal_bias="0.423"
+        app:layout_constraintStart_toEndOf="@+id/bt_contacto"
+        app:layout_constraintTop_toTopOf="@+id/bt_contacto"
+        app:layout_constraintVertical_bias="0.517" />
+
+    <TextView
+        android:id="@+id/tv_idPais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/bt_pais"
+        app:layout_constraintEnd_toEndOf="@+id/tv_idNac"
+        app:layout_constraintHorizontal_bias="0.417"
+        app:layout_constraintStart_toEndOf="@+id/bt_pais"
+        app:layout_constraintTop_toTopOf="@+id/bt_pais"
+        app:layout_constraintVertical_bias="0.517" />
+
+    <TextView
+        android:id="@+id/tv_idFechaNac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="@+id/bt_fechaNac"
+        app:layout_constraintEnd_toStartOf="@+id/bt_contacto"
+        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintStart_toEndOf="@+id/bt_fechaNac"
+        app:layout_constraintTop_toTopOf="@+id/bt_fechaNac"
+        app:layout_constraintVertical_bias="0.517" />
+
+    <TextView
+        android:id="@+id/tv_idGenero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/bt_idGenero"
+        app:layout_constraintEnd_toStartOf="@+id/bt_pais"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toEndOf="@+id/bt_idGenero"
+        app:layout_constraintTop_toTopOf="@+id/bt_idGenero"
+        app:layout_constraintVertical_bias="0.517" />
+
+    <TextView
+        android:id="@+id/tv_idNac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/bt_idNacional"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.345"
+        app:layout_constraintStart_toEndOf="@+id/bt_idNacional"
+        app:layout_constraintTop_toTopOf="@+id/bt_idNacional"
+        app:layout_constraintVertical_bias="0.482" />
+
+    <TextView
+        android:id="@+id/tv_idMedico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/bt_idMedico"
+        app:layout_constraintEnd_toStartOf="@+id/bt_idNacional"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toEndOf="@+id/bt_idMedico"
+        app:layout_constraintTop_toTopOf="@+id/bt_idMedico"
+        app:layout_constraintVertical_bias="0.482" />
+
+    <TextView
+        android:id="@+id/tv_rellenaVacunado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_infoPasaporte"
+        app:layout_constraintVertical_bias="0.026" />
+
+    <ImageButton
+        android:id="@+id/ib_returnHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/tv_infoPasaporte"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.727"
+        app:srcCompat="@android:drawable/ic_delete" />
+
+    <Button
+        android:id="@+id/bt_idMedico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:text="ID Médico"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_rellenaVacunado"
+        app:layout_constraintVertical_bias="0.478" />
+
+    <Button
+        android:id="@+id/bt_contacto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:text="Contacto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.682"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_rellenaVacunado"
+        app:layout_constraintVertical_bias="0.85" />
+
+    <Button
+        android:id="@+id/bt_nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:text="Nombre"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_rellenaVacunado"
+        app:layout_constraintVertical_bias="0.595" />
+
+    <Button
+        android:id="@+id/bt_ap1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:text="Apellidos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.684"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_rellenaVacunado"
+        app:layout_constraintVertical_bias="0.595" />
+
+    <Button
+        android:id="@+id/bt_idGenero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:text="FECHA NAC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.077"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_rellenaVacunado"
+        app:layout_constraintVertical_bias="0.726" />
+
+    <Button
+        android:id="@+id/bt_fechaNac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:text="PAÍS"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_rellenaVacunado"
+        app:layout_constraintVertical_bias="0.850" />
+
+    <Button
+        android:id="@+id/bt_pais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:text="GÉNERO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.665"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_rellenaVacunado"
+        app:layout_constraintVertical_bias="0.726" />
+
+    <Button
+        android:id="@+id/bt_idNacional"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:text="ID Nacional"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.714"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_rellenaVacunado"
+        app:layout_constraintVertical_bias="0.478" />
+
+    <Button
+        android:id="@+id/bt_reaccAd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reacciones"
+        app:layout_constraintBottom_toTopOf="@+id/bt_idMedico"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.703"
+        app:layout_constraintStart_toEndOf="@+id/bt_testReal"
+        app:layout_constraintTop_toBottomOf="@+id/tv_rellenaVacunado"
+        app:layout_constraintVertical_bias="0.333" />
+
+    <Button
+        android:id="@+id/bt_testReal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tests"
+        app:layout_constraintBottom_toTopOf="@+id/bt_idMedico"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.256"
+        app:layout_constraintStart_toEndOf="@+id/bt_dosisRec"
+        app:layout_constraintTop_toBottomOf="@+id/tv_rellenaVacunado"
+        app:layout_constraintVertical_bias="0.333" />
+
+    <Button
+        android:id="@+id/bt_dosisRec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dosis"
+        app:layout_constraintBottom_toTopOf="@+id/bt_idMedico"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_rellenaVacunado"
+        app:layout_constraintVertical_bias="0.333" />
+
+    <TextView
+        android:id="@+id/tv_dosis"
+        android:layout_width="97dp"
+        android:layout_height="73dp"
+        android:text=""
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/bt_idMedico"
+        app:layout_constraintEnd_toEndOf="@+id/bt_dosisRec"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="@+id/bt_dosisRec"
+        app:layout_constraintTop_toBottomOf="@+id/bt_dosisRec"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tv_tests"
+        android:layout_width="149dp"
+        android:layout_height="78dp"
+        android:text=""
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/tv_idMedico"
+        app:layout_constraintEnd_toEndOf="@+id/bt_testReal"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="@+id/bt_testReal"
+        app:layout_constraintTop_toBottomOf="@+id/bt_testReal"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tv_reacciones"
+        android:layout_width="111dp"
+        android:layout_height="78dp"
+        android:text=""
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/tv_idMedico"
+        app:layout_constraintEnd_toEndOf="@+id/bt_reaccAd"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/bt_reaccAd"
+        app:layout_constraintTop_toBottomOf="@+id/bt_reaccAd"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

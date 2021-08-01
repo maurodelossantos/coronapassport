@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/bt_addDosis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD DOSIS"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_addRecord"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/bt_addReaction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD REACCION ADVERSA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_addTest"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/bt_addTest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD TEST"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_addDosis"
+        app:layout_constraintVertical_bias="0.026" />
+
+    <Button
+        android:id="@+id/bt_getRecord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GET RECORD X2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_createWallet"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <Button
+        android:id="@+id/bt_createWallet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wallet w/ eth"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <Button
+        android:id="@+id/bt_addRecord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter to the system"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_createWallet"
+        app:layout_constraintVertical_bias="0.258" />
+
+    <TextView
+        android:id="@+id/tv_infoBlockchain"
+        android:layout_width="334dp"
+        android:layout_height="220dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_addReaction" />
+
+    <Button
+        android:id="@+id/bt_getBalance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WALLET BALANCE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bt_getRecord"
+        app:layout_constraintVertical_bias="0.103" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,2 @@
+es/udc/tfg/delossantos/coronapass/android/BuildConfig.java
+ es.udc.tfg.delossantos.coronapass.android.BuildConfig

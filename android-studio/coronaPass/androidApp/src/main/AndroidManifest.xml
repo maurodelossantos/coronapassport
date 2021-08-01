@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="es.udc.tfg.delossantos.coronapass.androidApp">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="false"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MyListAdapter"></activity>
+        <activity android:name=".patient.PatientWallet" />
+        <activity android:name=".welcomesliders.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="es.udc.tfg.delossantos.coronapass.androidApp.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+
+            <!-- ressource file to create -->
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity android:name=".cdc.AddProfileDataCdc" />
+        <activity android:name=".welcomesliders.IntroSliderActivity" />
+        <activity android:name=".usersmanagement.LogIn" />
+        <activity
+            android:name=".usersmanagement.SignUp"
+            android:theme="@style/AppTheme">
+            >
+        </activity>
+        <activity android:name=".ReaccionesAdversas" />
+        <activity android:name=".cdc.AddReaccionCdc" />
+        <activity android:name=".TestsRealizados" />
+        <activity android:name=".cdc.AddTestCdc" />
+        <activity android:name=".cdc.AddDosisCdc" />
+        <activity android:name=".cdc.ScanPassportCdc" />
+        <activity android:name=".cdc.CdcMain" />
+        <activity android:name=".DosisRecibidas" />
+        <activity
+            android:name=".MainActivity"
+            android:label="CoronaPassport" />
+    </application>
+
+</manifest>

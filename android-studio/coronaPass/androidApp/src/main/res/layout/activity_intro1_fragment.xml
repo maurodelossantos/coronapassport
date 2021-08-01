@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:gravity="center"
+    android:background="#82BADC">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_user"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_intro1"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/desc_intro1"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_fr1_TEXTaccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dirección de tu wallet:"
+        android:textAlignment="center"
+        android:textColor="#DDDDDD" />
+
+    <TextView
+        android:id="@+id/tv_fr1_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_fr1_TEXTprivKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tu clave privada:"
+        android:textAlignment="center"
+        android:textColor="#CFCCCC" />
+
+    <TextView
+        android:id="@+id/tv_fr1_privKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/ib_copyToClipboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="?attr/actionModeCopyDrawable" />
+
+</LinearLayout>

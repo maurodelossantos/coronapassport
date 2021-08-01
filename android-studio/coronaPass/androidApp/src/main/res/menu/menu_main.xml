@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/send"
+        android:orderInCategory="100"
+        android:title="Enviar Pasaporte"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/importqr"
+        android:orderInCategory="200"
+        android:title="Importar Pasaporte"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/update"
+        android:orderInCategory="300"
+        android:title="Actualizar Pasaporte"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/tutorial"
+        android:orderInCategory="300"
+        android:title="Repetir Tutorial"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/logout"
+        android:orderInCategory="400"
+        android:title="Logout"
+        android:icon="@drawable/perfil"
+        app:showAsAction="never" />
+</menu>

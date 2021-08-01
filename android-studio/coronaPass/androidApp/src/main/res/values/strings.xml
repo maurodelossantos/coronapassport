@@ -1,0 +1,20 @@
+<resources>
+    <string name="title_activity_cdc_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="sign_in">Log in</string>
+    <string name="create_account">Create Account</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="or">or</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="send_email">Click here to send verification email</string>
+    <string name="text_intro1">Wallet creada con éxito!</string>
+    <string name="text_intro2">¡Hora de conseguir saldo!</string>
+    <string name="text_intro3">Todo listo para comenzar a usar Coronapass!</string>
+    <string name="desc_intro1">Aquí tienes tu dirección de cuenta (0x) y tu clave privada. ¡Guárdalas en un lugar seguro!</string>
+    <string name="desc_intro2">Para tener saldo (Ether) y poder operar en el sistema, verifique su cuenta desde el email y clicke en el botón Dame Saldo.</string>
+    <string name="desc_intro3">Recuerda que ... blablabla</string>
+</resources>

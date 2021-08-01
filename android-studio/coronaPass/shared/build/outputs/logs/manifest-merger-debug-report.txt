@@ -1,0 +1,65 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml:2:1-16:12
+INJECTED from C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml:2:1-16:12
+INJECTED from C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml:2:1-16:12
+INJECTED from C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml:2:1-16:12
+INJECTED from C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml:2:1-16:12
+INJECTED from C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml:2:1-16:12
+INJECTED from C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml:2:1-16:12
+	package
+		ADDED from C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml:3:5-56
+		INJECTED from C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml
+		INJECTED from C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml
+		ADDED from C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml:2:1-16:12
+		INJECTED from C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml
+		ADDED from C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml:2:1-16:12
+		INJECTED from C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml:5:5-65
+	android:name
+		ADDED from C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml:5:22-62
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml:6:22-64
+uses-feature#android.hardware.camera
+ADDED from C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml:8:5-60
+	android:name
+		ADDED from C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml:8:19-57
+application
+ADDED from C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml:10:5-14:19
+	android:usesCleartextTraffic
+		ADDED from C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml:10:18-53
+activity#es.udc.tfg.delossantos.coronapass.androidApp.patient.Blockchain
+ADDED from C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml:11:9-109
+	android:name
+		ADDED from C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml:11:19-97
+activity#es.udc.tfg.delossantos.coronapass.androidApp.patient.ShowPassport
+ADDED from C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml:12:9-102
+	android:name
+		ADDED from C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml:12:19-99
+activity#es.udc.tfg.delossantos.coronapass.androidApp.patient.AddPersonalData
+ADDED from C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml:13:9-105
+	android:name
+		ADDED from C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml:13:19-102
+uses-sdk
+INJECTED from C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml
+INJECTED from C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml
+INJECTED from C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml
+INJECTED from C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml
+		ADDED from C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml
+		INJECTED from C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml
+		ADDED from C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml
+		INJECTED from C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml

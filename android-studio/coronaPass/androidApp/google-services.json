@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "622899096964",
+    "project_id": "coronapass-15032020",
+    "storage_bucket": "coronapass-15032020.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:622899096964:android:37862c67220b5e69dc81d1",
+        "android_client_info": {
+          "package_name": "es.udc.tfg.delossantos.coronapass.androidApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "622899096964-0ftqunmid4e2ue0broao6ohm8g5cbj5c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdvH3l2y367wSDoFWDWIIZDP63_n7AHuY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "622899096964-0ftqunmid4e2ue0broao6ohm8g5cbj5c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

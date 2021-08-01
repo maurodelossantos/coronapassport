@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="es.udc.tfg.delossantos.coronapass.android">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <application android:usesCleartextTraffic="true">
+        <activity android:name="es.udc.tfg.delossantos.coronapass.androidApp.patient.Blockchain"></activity>
+        <activity android:name="es.udc.tfg.delossantos.coronapass.androidApp.patient.ShowPassport" />
+        <activity android:name="es.udc.tfg.delossantos.coronapass.androidApp.patient.AddPersonalData" />
+    </application>
+
+</manifest>

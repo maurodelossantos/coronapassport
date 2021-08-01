@@ -1,0 +1,178 @@
+[
+    {
+        "merged": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_qscanner.png.flat",
+        "source": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\src\\main\\res\\drawable\\qscanner.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_ic_notifications_black_24dp.xml.flat",
+        "source": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\src\\main\\res\\drawable\\ic_notifications_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_group.png.flat",
+        "source": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\src\\main\\res\\drawable\\group.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_outline_masks_black_24dp.png.flat",
+        "source": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\src\\main\\res\\drawable\\outline_masks_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_activity_intro_slider.xml.flat",
+        "source": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\src\\main\\res\\layout\\activity_intro_slider.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_activity_add_test_cdc.xml.flat",
+        "source": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\src\\main\\res\\layout\\activity_add_test_cdc.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_activity_aes256_class.xml.flat",
+        "source": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\src\\main\\res\\layout\\activity_aes256_class.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_activity_sign_up.xml.flat",
+        "source": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\src\\main\\res\\layout\\activity_sign_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_activity_scan_passport_cdc.xml.flat",
+        "source": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\src\\main\\res\\layout\\activity_scan_passport_cdc.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\build\\intermediates\\res\\merged\\debug\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\src\\main\\res\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_activity_add_dosis_cdc.xml.flat",
+        "source": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\src\\main\\res\\layout\\activity_add_dosis_cdc.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_activity_log_in.xml.flat",
+        "source": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\src\\main\\res\\layout\\activity_log_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\build\\intermediates\\res\\merged\\debug\\navigation_mobile_navigation.xml.flat",
+        "source": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\src\\main\\res\\navigation\\mobile_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_ic_home_black_24dp.xml.flat",
+        "source": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\src\\main\\res\\drawable\\ic_home_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\build\\intermediates\\res\\merged\\debug\\xml_file_paths.xml.flat",
+        "source": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\src\\main\\res\\xml\\file_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_activity_my_list_adapter.xml.flat",
+        "source": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\src\\main\\res\\layout\\activity_my_list_adapter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_fragment_notifications.xml.flat",
+        "source": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\src\\main\\res\\layout\\fragment_notifications.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_edit.png.flat",
+        "source": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\src\\main\\res\\drawable\\edit.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_activity_tests_realizados.xml.flat",
+        "source": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\src\\main\\res\\layout\\activity_tests_realizados.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_add_personal_data.xml.flat",
+        "source": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\src\\main\\res\\layout\\add_personal_data.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_pig.png.flat",
+        "source": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\src\\main\\res\\drawable\\pig.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_indicator_unselected.xml.flat",
+        "source": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\src\\main\\res\\drawable\\indicator_unselected.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_activity_aes256_class2.xml.flat",
+        "source": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\src\\main\\res\\layout\\activity_aes256_class2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_activity_add_reaccion.xml.flat",
+        "source": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\src\\main\\res\\layout\\activity_add_reaccion.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_activity_intro1_fragment.xml.flat",
+        "source": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\src\\main\\res\\layout\\activity_intro1_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_activity_intro2_fragment.xml.flat",
+        "source": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\src\\main\\res\\layout\\activity_intro2_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_fragment_dashboard.xml.flat",
+        "source": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\src\\main\\res\\layout\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_qrcode.png.flat",
+        "source": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\src\\main\\res\\drawable\\qrcode.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_activity_reacciones_adversas.xml.flat",
+        "source": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\src\\main\\res\\layout\\activity_reacciones_adversas.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_ic_user.xml.flat",
+        "source": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\src\\main\\res\\drawable\\ic_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_activity_cdc_main.xml.flat",
+        "source": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\src\\main\\res\\layout\\activity_cdc_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_outline_change_circle_24.xml.flat",
+        "source": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\src\\main\\res\\drawable\\outline_change_circle_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_activity_patient_wallet.xml.flat",
+        "source": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\src\\main\\res\\layout\\activity_patient_wallet.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_ic_dashboard_black_24dp.xml.flat",
+        "source": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\src\\main\\res\\drawable\\ic_dashboard_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_indicator_selected.xml.flat",
+        "source": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\src\\main\\res\\drawable\\indicator_selected.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_mask.png.flat",
+        "source": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\src\\main\\res\\drawable\\mask.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_outline_masks_white_24dp.png.flat",
+        "source": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\src\\main\\res\\drawable\\outline_masks_white_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\build\\intermediates\\res\\merged\\debug\\menu_menu_main.xml.flat",
+        "source": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\build\\intermediates\\res\\merged\\debug\\layout_activity_intro3_fragment.xml.flat",
+        "source": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\src\\main\\res\\layout\\activity_intro3_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_wallet.png.flat",
+        "source": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\src\\main\\res\\drawable\\wallet.png"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\build\\intermediates\\res\\merged\\debug\\menu_bottom_navigation_menu.xml.flat",
+        "source": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\src\\main\\res\\menu\\bottom_navigation_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\build\\intermediates\\res\\merged\\debug\\drawable_editw.png.flat",
+        "source": "C:\\Users\\Usuario\\Desktop\\TFG\\coronaPass\\androidApp\\src\\main\\res\\drawable\\editw.png"
+    }
+]

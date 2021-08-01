@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_qrCode"
+        android:icon="@drawable/qrcode"
+        android:title="QR Code"/>
+
+    <item
+        android:id="@+id/navigation_qrScanner"
+        android:icon="@drawable/qscanner"
+        android:title="QR Scanner"/>
+
+    <item
+        android:id="@+id/navigation_userProfile"
+        android:icon="@drawable/ic_user"
+        android:title="User"/>
+
+    <item
+        android:id="@+id/navigation_cdcProfile"
+        android:icon="@drawable/group"
+        android:title="CDC"/>
+
+</menu>

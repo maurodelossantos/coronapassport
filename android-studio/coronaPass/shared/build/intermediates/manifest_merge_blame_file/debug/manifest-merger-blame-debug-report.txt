@@ -1,0 +1,38 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="es.udc.tfg.delossantos.coronapass.android"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml:5:5-65
+11-->C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml:5:22-62
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml:6:5-67
+12-->C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml:6:22-64
+13
+14    <uses-feature android:name="android.hardware.camera" />
+14-->C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml:8:5-60
+14-->C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml:8:19-57
+15
+16    <application android:usesCleartextTraffic="true" >
+16-->C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml:10:5-14:19
+16-->C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml:10:18-53
+17        <activity android:name="es.udc.tfg.delossantos.coronapass.androidApp.patient.Blockchain" />
+17-->C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml:11:9-109
+17-->C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml:11:19-97
+18        <activity android:name="es.udc.tfg.delossantos.coronapass.androidApp.patient.ShowPassport" />
+18-->C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml:12:9-102
+18-->C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml:12:19-99
+19        <activity android:name="es.udc.tfg.delossantos.coronapass.androidApp.patient.AddPersonalData" />
+19-->C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml:13:9-105
+19-->C:\Users\Usuario\Desktop\TFG\coronaPass\shared\src\androidMain\AndroidManifest.xml:13:19-102
+20    </application>
+21
+22</manifest>
