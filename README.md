@@ -15,6 +15,7 @@ Mobile Multiplatform que servirá para interactuar e facer uso de dito sistema.
 No repositorio poderás atopar:
 
 * A [memoria](memoria_TFG.pdf) do TFG en PDF.
+* O [artigo](Coronapassport.pdf) do proxecto a modo de *abstract* en PDF.
 * Todo o código dos Smart Contracts en [remix](remix)
 * Todo o código da Dapp en [android-studio](android-studio)
 
